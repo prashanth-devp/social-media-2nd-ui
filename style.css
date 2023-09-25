@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.up {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+.down {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+.card {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+.card1 {
+  border-radius: 90px 5px 5px 5px;
+}
+.card1:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #cc39a4;
+}
+.instagram {
+  margin-top: 1.5em;
+  margin-left: 1.2em;
+  fill: #cc39a4;
+}
+.card1:hover .instagram {
+  fill: white;
+}
+.card2 {
+  border-radius: 5px 90px 5px 5px;
+}
+.card2:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #03a9f4;
+}
+.twitter {
+  margin-top: 1.5em;
+  margin-left: -0.5em;
+  fill: #03a9f4;
+}
+.card2:hover .twitter {
+  fill: white;
+}
+.card3 {
+  border-radius: 5px 5px 5px 90px;
+}
+.card3:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: black;
+}
+.github {
+  margin-top: -0.6em;
+  margin-left: 1.2em;
+}
+.card3:hover .github {
+  fill: white;
+}
+.card4 {
+  border-radius: 5px 5px 90px 5px;
+}
+.card4:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #8c9eff;
+}
+.discord {
+  margin-top: -0.9em;
+  margin-left: -1.2em;
+  fill: #8c9eff;
+}
+.card4:hover .discord {
+  fill: white;
+}
